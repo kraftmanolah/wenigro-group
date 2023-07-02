@@ -1,0 +1,7 @@
+{
+  "name": "wenigro-group",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
