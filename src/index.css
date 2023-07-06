@@ -26,3 +26,131 @@
 .fifth-icon {
   margin-top: -400px;
 }
+
+.header-container {
+  position: relative;
+}
+
+.icon-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.icon-background svg {
+  width: 54px;
+  height: 54px;
+}
+
+.icon-background svg:nth-child(1) {
+  align-self: flex-start;
+}
+
+.icon-background svg:nth-child(2) {
+  align-self: flex-start; /* Align the third icon to the top */
+  margin-top: -105%; /* Adjust the margin-top value to move it slightly towards the top */
+  margin-left: -50%;
+  padding-right: 5%;
+}
+
+
+.icon-background svg:nth-child(4),
+.icon-background svg:nth-child(5),
+.icon-background svg:nth-child(6) {
+  align-self: center;
+}
+
+.icon-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-background svg:nth-child(3) {
+  align-self: flex-start; /* Align the third icon to the top */
+  margin-top: -90%; /* Adjust the margin-top value to move it slightly towards the top */
+  padding-right: 10%;
+}
+
+.icon-background svg:nth-child(4) {
+  align-self: flex-start; /* Align the fourth icon to the top */
+  margin-top: -70%; /* Adjust the margin-top value to move it slightly towards the top */
+  padding-right: 5%;
+}
+
+.background-text {
+  position: absolute;
+  right: -200px; /* Adjust the right position */
+  bottom: 600px; /* Adjust the bottom position */
+  color: rgba(255, 255, 255, 0.2);
+  pointer-events: none;
+  transform: translate(-50%, -50%); /* Add a translation to move it up and to the left */
+  font-family: Avenir Next Rounded Pro;
+font-size: 100.1px;
+font-style: normal;
+font-weight: 700;
+line-height: 0%;
+opacity: 0.3199999928474426;
+}
+
+.wenigs {
+  color: rgba(255, 255, 255, 0.2);
+  pointer-events: none;
+  transform: translate(-50%, -50%); /* Add a translation to move it up and to the left */
+  font-family: Avenir Next Rounded Pro;
+font-size: 120px;
+font-style: normal;
+font-weight: 700;
+line-height: 0%;
+opacity: 0.3199999928474426;
+}
+
+.shared-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circle-icon {
+  position: absolute;
+  top: -450px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container {
+  position: relative;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+}
+
+.header-container {
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .circle-icon {
+    display: none; /* Hide the circle icon */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
